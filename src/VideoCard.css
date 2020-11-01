@@ -36,3 +36,18 @@
     position: relative !important;
     top: 4px !important;
 }
+
+@media(max-width:500px){
+    .videoCard:hover .videoCard__stats{
+        margin-left: 54px;
+    }
+    .videoCard p{
+        margin-left: 54px;
+        width: 348px;
+
+    }
+    .videoCard h2{
+        margin-left: 54px;
+        width: 348px;
+    }
+}
